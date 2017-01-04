@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_show_printer_init"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="初始化打印机"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始打印"
+        android:textSize="50sp" />
+
+
+    <Button
+        android:id="@+id/btn_open_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开钱箱"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_show_printer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印机信息"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_show_printer_cut_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全切"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btn_show_printer_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电量"
+        android:textSize="50sp" />
+
+
+</LinearLayout>
