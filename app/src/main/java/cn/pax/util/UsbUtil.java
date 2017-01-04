@@ -74,6 +74,7 @@ public class UsbUtil {
             Iterator<UsbDevice> iterator = deviceList.values().iterator();//迭代器
             while (iterator.hasNext()) {
                 UsbDevice device = iterator.next();
+                //添加授权信息
                 mUsbManager.requestPermission(device, mPendingIntent);
             }
         }
